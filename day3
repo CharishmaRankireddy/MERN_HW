@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Uber Button */
+.uber-button {
+    background-color: #000;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.uber-button:hover {
+    opacity: 1;
+}
+
+/* Amazon Button */
+.amazon-button {
+    background-color: #ff9900;
+    color: #fff;
+}
+
+.amazon-button:hover {
+    background-color: #e68a00;
+}
+
+/* GitHub Button */
+.github-button {
+    background-color: #28a745;
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.github-button:hover {
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Bootstrap Buttons */
+.bootstrap-button {
+    background-color: #563d7c;
+    color: #fff;
+}
+
+.bootstrap-button.secondary {
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+.bootstrap-button:hover {
+    background-color: #472f61;
+}
+
+.bootstrap-button.secondary:hover {
+    background-color: #ccc;
+}
+
+/* LinkedIn Buttons */
+.linkedin-button {
+    background-color: #0073b1;
+    color: #fff;
+    border: 2px solid transparent;
+}
+
+.linkedin-button.secondary {
+    background-color: #fff;
+    color: #0073b1;
+    border: 2px solid #0073b1;
+}
+
+.linkedin-button:hover {
+    background-color: #005f8b;
+}
+
+.linkedin-button.secondary:hover {
+    background-color: #e5f3fb;
+}
